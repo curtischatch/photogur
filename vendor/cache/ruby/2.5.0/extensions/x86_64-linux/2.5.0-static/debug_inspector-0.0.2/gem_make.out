@@ -1,0 +1,15 @@
+current directory: /home/curtischatch/Desktop/Bitmaker/Projects/photogur/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/home/curtischatch/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20180807-22952-sgd7bo.rb extconf.rb
+creating Makefile
+
+current directory: /home/curtischatch/Desktop/Bitmaker/Projects/photogur/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/curtischatch/Desktop/Bitmaker/Projects/photogur/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/curtischatch/Desktop/Bitmaker/Projects/photogur/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20180807-22952-1o5mhcs
