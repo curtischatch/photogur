@@ -3917,3 +3917,535 @@ DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please ch
   Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
   Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
   Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.8ms)
+Started GET "/sessions" for 127.0.0.1 at 2018-08-19 14:49:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/sessions"):
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (5.6ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.7ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2983191512868924947_47445377790760 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.1ms)
+Started GET "/sessions" for 127.0.0.1 at 2018-08-19 14:49:54 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/sessions"):
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (3.7ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2983191512868924947_47445375907660 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.9ms)
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:51:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (26.6ms)
+  Rendered users/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 205ms (Views: 198.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:51:08 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:51:10 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.1ms)
+  Rendered users/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:51:10 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:51:11 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.1ms)
+  Rendered users/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:51:11 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:51:12 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:51:12 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:51:12 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:52:28 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:52:32 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:52:34 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:52:35 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:52:35 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:52:38 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.1ms)
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-08-19 14:52:53 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iJh0l50MgLuDoCCVZfhEitFKPHA3aW/XJgbFDEiSPS38H5FY0GdlR9JhjLX+ELOEpVpDcpBFLFo6HpGybZ0Vfw==", "user"=>{"email"=>"1@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("password_digest", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["password_digest", "$2a$10$hJ4sARnOJTyVRhluWPLk4OOVvS4MnaheNL1LleZ9iuZyIdVfCnCm6"], ["created_at", 2018-08-19 18:52:53 UTC], ["updated_at", 2018-08-19 18:52:53 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 77ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/pictures" for 127.0.0.1 at 2018-08-19 14:52:53 -0400
+Processing by PicturesController#index as HTML
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/_show_pic.html.erb (1.7ms)
+  Rendered pictures/_show_pic.html.erb (0.5ms)
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE (created_at < '2018-07-07 00:00:00')[0m
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE (created_at LIKE '2017%')[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE (created_at LIKE '2018%')[0m
+  Rendered pictures/_show_pic.html.erb (0.6ms)
+  Rendered pictures/_show_pic.html.erb (0.5ms)
+  Rendered pictures/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/images/sadfs" for 127.0.0.1 at 2018-08-19 14:52:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/sadfs"):
+  
+
+Started GET "/images/fdjflkajsdf" for 127.0.0.1 at 2018-08-19 14:52:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/fdjflkajsdf"):
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (6.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (4.1ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.4ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.8ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3793148050324167292_70212125501920 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3793148050324167292_70212125477640 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (80.9ms)
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:52:57 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:53:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QgA+t45lZQH6od+QBgiXxYYT5ipoy5mpThAbqqSaoXk2h9t4ww6A/atgc7Cd4GDL8gOZKM/n2iRSCE8UgZWJKw==", "session"=>{"email"=>"1@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "1@gmail.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:53:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ORNoUWS+eqHEwyWjHrcH4UDIKsoRxF6LegmN6kjw/cNNlI2eKdWfXZUCiYOFX/DvNNhVyLboHQZmEdlUbf/VkQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:53:11 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DqQv/aBHmHzGA5S9hKcSDgwNF0tgsoNPWfQXjZwwXHd6I8oy7Sx9gJfCOJ0fT+UAeB1oSceewMJF7EMzuT90JQ==", "session"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3793148050324167292_70212130673280 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.5ms)
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:56:14 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DqQv/aBHmHzGA5S9hKcSDgwNF0tgsoNPWfQXjZwwXHd6I8oy7Sx9gJfCOJ0fT+UAeB1oSceewMJF7EMzuT90JQ==", "session"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.9ms)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (0.7ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3793148050324167292_70212129450060 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.6ms)
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:56:21 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DqQv/aBHmHzGA5S9hKcSDgwNF0tgsoNPWfQXjZwwXHd6I8oy7Sx9gJfCOJ0fT+UAeB1oSceewMJF7EMzuT90JQ==", "session"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+BCrypt::Errors::InvalidHash (invalid hash):
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (0.6ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_curtischatch__rbenv_versions_______lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3793148050324167292_70212127870960 at /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.6ms)
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:56:45 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.6ms)
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-08-19 14:56:46 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.7ms)
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-08-19 14:57:45 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"agegMLopNK9yxXwq0Rg5MKUQx9/EklEEG1EwRr4LIH0egEX/90LRUyME0ApK8M4+0QC43WO+EokHSWT4mwQILw==", "user"=>{"email"=>"hello@gmail", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("password_digest", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["password_digest", "$2a$10$vD0v8snbemrro9NYHM5kNOZDNzCfzqDjElEZPYzDdyig01QZFwn0a"], ["created_at", 2018-08-19 18:57:45 UTC], ["updated_at", 2018-08-19 18:57:45 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 77ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/pictures" for 127.0.0.1 at 2018-08-19 14:57:45 -0400
+Processing by PicturesController#index as HTML
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/_show_pic.html.erb (1.1ms)
+  Rendered pictures/_show_pic.html.erb (0.6ms)
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE (created_at < '2018-07-07 00:00:00')[0m
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE (created_at LIKE '2017%')[0m
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE (created_at LIKE '2018%')[0m
+  Rendered pictures/_show_pic.html.erb (0.4ms)
+  Rendered pictures/_show_pic.html.erb (0.4ms)
+  Rendered pictures/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 29ms (Views: 24.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/sadfs" for 127.0.0.1 at 2018-08-19 14:57:45 -0400
+Started GET "/images/fdjflkajsdf" for 127.0.0.1 at 2018-08-19 14:57:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/sadfs"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/fdjflkajsdf"):
+
+  
+
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (4.6ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered collection of /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (6.4ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.5ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.5ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.2ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.9ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.4ms)
+  Rendering /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/curtischatch/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (82.1ms)
+Started GET "/sessions/new" for 127.0.0.1 at 2018-08-19 14:57:48 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:57:58 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9qdTFsLQYXo6PlRPogDPHsgv/ecXEPc2evc7aSIu+8/XXiDFmCkebkpVXGlYPQyDzDA9TtwAFHF84hTgYeTvQ==", "session"=>{"email"=>"hello@gmail", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "hello@gmail"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:58:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gSEN3pntxvF70ew+VF2aEza+eAF8hHhsFT3RXFEgMyj1pugR1IYjDSoQQB7PtW0dQq4HA9uoO+EJJYXidC8beg==", "session"=>{"email"=>"hello@gmail", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "hello@gmail"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:58:10 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HMpPwO/JpNk+XViFSoOZNTXfyEzZItpo6Atj1ALoxbVoTaoPoqJBJW+c9KXRa247Qc+3Tn4OmeX0EzdqJ+ft5w==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2018-08-19 14:58:10 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y8PbWJXijJUEsp2wQQPZz9vlARAyXStaVwNbaVZnqvIXRD6X2IlpaVVzMZDa6y7Br/V+EpVxaNdLGw/Xc2iCoA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+

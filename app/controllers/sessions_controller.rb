@@ -10,9 +10,11 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to pictures_url, notice: "Logged in!"
     else
+      flash[:notice] = 'try again'
       render :new
     end
   end
+
 
   def destroy
     sessions[:user_id] = nil
