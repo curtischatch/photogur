@@ -1,6 +1,6 @@
 <% if user.errors.any? %>
   <div id="error_explanation">
-    
+
     <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
 
      <ul>
@@ -15,18 +15,18 @@
  <%= form_for(user) do |f| %>
   <p>
     <%= f.label :email %><br>
-    <%= f.text_field :email %>
+    <%= f.email_field :email %>
   </p>
 
    <p>
     <%= f.label :password %><br>
-    <%= f.text_field :password%>
+    <%= f.password_field :password%>
       <!-- instead of password_digest -->
   </p>
 
    <p>
     <%= f.label :password_confirmation %><br>
-    <%= f.text_field :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
   </p>
 
    <p>
